@@ -1,24 +1,36 @@
 def welcome
+  puts "Welcome to the Blackjack Table"
   # code #welcome here
 end
 
 def deal_card
+  array = [1,2,3,4,5,6,7,8,9,10,11]
+  return array.sample
+  #card=1
+  #card+=rand(9).round
+  #pp card
+  #return card
   # code #deal_card here
 end
 
-def display_card_total
+def display_card_total(total)
+  pp total
+  puts "Your cards add up to #{total}"
   # code #display_card_total here
 end
 
 def prompt_user
+  puts "Type 'h' to hit or 's' to stay"
   # code #prompt_user here
 end
 
 def get_user_input
+  user_input=gets.chomp
   # code #get_user_input here
 end
 
 def end_game
+  
   # code #end_game here
 end
 
