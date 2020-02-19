@@ -30,7 +30,7 @@ def get_user_input
 end
 
 def end_game
-  puts "apology"
+  puts "Sorry, you hit 27. Thanks for playing!"
   # code #end_game here
 end
 
